@@ -1,0 +1,234 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+
+body{
+    min-height:100vh;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    /* position: relative; */
+    margin: 50px auto;
+    border: 1px solid black;  
+    background-color: black;
+    color: white;
+    border-radius: 20px;  
+    height: 500px;
+    width: 350px;
+    }
+header{
+/* position: relative; */
+background-color: rgb(133, 129, 129);
+font-family: 'Open Sans', sans-serif;
+border-radius: 20px 20px 0px 0px;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+height:60px;
+align-items: center;
+}
+
+header .logo{
+    /* position: relative; */
+    color:white;
+    font-size: 15px;
+
+}
+
+header .icons{
+    position: relative;
+    color:white;
+    display: flex;
+    gap: 1.5rem;
+}
+header .logo{
+    /* position: relative; */
+    color:white;
+    font-size: 15px;
+
+}
+
+header .icons{
+    position: relative;
+    color:white;
+    display: flex;
+    gap: 1.5rem;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    height:40px;
+    font-size: 17px;
+    font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:10px 15px;
+    /* border:1px solid white; */
+}
+
+.newshead {
+    display: flex;
+    /* border: 1px solid rgb(233, 225, 225); */
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    gap:10px;
+    /* margin-left:14px ; */
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: rgb(49, 47, 47);
+    border-radius: 2%;
+
+}
+.newshead .image{
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.image i{
+    border:1px solid  rgb(134, 130, 130);
+    height: 45px;
+    border-radius: 7%;
+    width:45px;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(134, 130, 130);
+    align-items: center;
+}
+.cgp{
+    background-color: rgb(49, 47, 47);
+    border-radius: 2%;
+    height: 170px;
+    margin-top: 18px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+.cgp .block{
+    /* position: relative; */
+    display: flex;
+    /* border: 1px solid white; */
+    align-items: center;
+    width: 100%;
+    gap:10px;
+    padding: 10px 15px;
+}
+.cgp .block .image{
+    /* position: relative; */
+    width: 50px;
+    height: 50px;
+  
+    overflow: hidden;
+    border-radius: 10%;
+}
+.cgp .block .image img{
+    /* position: relative;
+    top:0;
+    left:0; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cgp .block .details{
+    width: 85%;       
+    /* position: relative; */
+}
+.listhead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 2px 4px;
+}
+
+  
+
+.cgp .block .details .time{
+    display: flex;
+    flex-direction: row; 
+    font-size: 12px;
+    /* margin:auto; */
+    /* flex:end; */
+    justify-content: space-between
+}
+
+.iplus .plus{
+    position: absolute;
+    top:205px;
+    left:550px;
+    /* right: px; */
+    width: 15px;
+    height:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 50%;
+}
+.newshead .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+hr{
+    margin-top: 6px;
+    opacity:0.5;
+    width:97%;
+    margin: auto;
+}
+
+.view{
+    display: flex;
+    gap:45px;
+    align-items: center;
+    padding:4px 30px;
+    opacity: 0.5;
+   
+
+}
+.content{
+    width: 100%;
+    height: 378px;
+    overflow-y:auto;
+    overflow-x :hidden ;
+}
+
+footer{
+    /* position: relative; */
+    background-color: rgb(45, 44, 44);
+    border-radius: 0px 0px 20px 20px;
+    height: 62px;
+}
+
+footer .icontabs{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .icontabs .tab{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+}
+
+.tab a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+}
+
+.tab:hover{
+    cursor: pointer;
+}
